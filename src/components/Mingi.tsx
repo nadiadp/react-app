@@ -28,7 +28,7 @@ function Mingi() {
       />
       <audio
         ref={audioRef}
-        src="public/waveATEEZ.mp3"
+        src="/react-app/waveATEEZ.mp3"
         //GOMBAY GOMBAYYYY
         onPlay={() => {
           if (audioRef.current) {
