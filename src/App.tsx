@@ -5,6 +5,7 @@ function App() {
     <div>
       <Alert text="Hello! I am an alert box!" />
     </div>
+  );
 }
 
 export default App;
