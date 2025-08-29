@@ -5,13 +5,17 @@ import Mingi from "./components/Mingi";
 function App() {
   return (
     <>
-      <Alert>THIS IS MY ALERT</Alert>
-
+      <Alert>DO NOT CLICK THE PHOTO</Alert>
       <Mingi />
-
+      {/* dynamically render ListGroup with different items and headings */}
       <ListGroup
-        items={["New York", "San Francisco", "Tokyo", "London"]}
-        heading="Cities"
+        items={[
+          "Takis",
+          "Dill Pickles",
+          "Churrasco",
+          "Anything drowned in lime juice and high in sodium",
+        ]}
+        heading="My favorite foods"
       />
     </>
   );

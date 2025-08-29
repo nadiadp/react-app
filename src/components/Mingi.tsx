@@ -10,7 +10,6 @@ function Mingi() {
 
     if (isPlaying) {
       audio.pause();
-      audio.currentTime = 0;
       setIsPlaying(false);
     } else {
       audio.play();
@@ -22,7 +21,7 @@ function Mingi() {
     <>
       <img
         src="https://i.pinimg.com/736x/f0/e8/c7/f0e8c7bf520558293b50d581d1a5a929.jpg"
-        alt="Random image"
+        alt="mingi of ATEEZ"
         className="img-fluid w-25"
         onClick={handleImageClick}
         style={{ cursor: "pointer" }}
@@ -30,6 +29,12 @@ function Mingi() {
       <audio
         ref={audioRef}
         src="public/ATEEZ(에이티즈) - 'WAVE' Official MV.mp3"
+        //GOMBAY GOMBAYYYY
+        onPlay={() => {
+          if (audioRef.current) {
+            audioRef.current.currentTime = 28; //GOMBAY GOMBAYYYY
+          }
+        }}
       />
     </>
   );
