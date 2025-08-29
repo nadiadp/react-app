@@ -1,6 +1,6 @@
 # Check out the beautiful website:_[ https://nadiadp.github.io/react-app/](https://nadiadp.github.io/react-app/)_
 
-This is my first attempt at familiarizing myself with React's library and using it to create a website.
+This is my first attempt at familiarizing myself with React's library and Vite to create a website.
 
 I followed along _Programming with Mosh's_ [&#34;React Tutorial for Beginners&#34;](https://youtu.be/SqcY0GlETPk?si=7du8cKx1cfiGM0M0) and then put my own little spin on it.
 
