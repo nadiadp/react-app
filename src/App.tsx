@@ -1,10 +1,19 @@
 import Alert from "./components/Alert";
+import ListGroup from "./components/ListGroup";
+import Mingi from "./components/Mingi";
 
 function App() {
   return (
-    <div>
-      <Alert text="Hello! I am an alert box!" />
-    </div>
+    <>
+      <Alert>THIS IS MY ALERT</Alert>
+
+      <Mingi />
+
+      <ListGroup
+        items={["New York", "San Francisco", "Tokyo", "London"]}
+        heading="Cities"
+      />
+    </>
   );
 }
 
